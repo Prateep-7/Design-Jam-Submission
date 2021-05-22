@@ -1,0 +1,61 @@
+*{
+  background-color: #E0FFFF;
+  text-decoration: none;
+  font-family: "FreeMono", monospace;
+  font-size: 25px;
+}
+#b1{
+  background-image: url(https://naibuzz.com/wp-content/uploads/2018/08/linus-sebastian.jpg);
+  background-size: cover; height:480px; padding-top: 720px;
+  background-repeat: no-repeat;
+}
+#top{
+  font-size: 30px;
+}
+#top1{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 30px;
+}
+#img{
+  background-color: transparent;
+  margin-bottom: 0px;
+}
+.center{
+ display: block;
+ margin: auto auto;
+ width: 30%;
+ /*padding-top: 50px;*/
+}
+#pi{
+    padding: 50px 200px 0px 250px;
+}
+#yc{
+  grid-template-columns: auto;
+  text-align: center;
+  /*width: 300px;
+  text-align: center;
+  margin: 0px 0px 0px 525px;*/
+}
+.nl{
+  padding-left: 30px;
+}
+.nl1{
+  padding-left: 475px;
+}
+#con{
+  padding-top: 50px;
+   grid-template-columns: auto;
+}
+.link{
+
+  padding-top: 30px;
+  text-align: center;
+  grid-template-columns: auto auto auto;
+  grid-gap: 50px 100px;
+  display: grid;
+  justify-content: center;
+}
+#ltt{
+  width: 48px;
+}
