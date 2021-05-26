@@ -24,6 +24,12 @@
 .fam{
   background-color: transparent;
 }
+@media only screen and (max-width: 768px){
+  #fam{
+    width:auto;
+    height: auto;
+  }
+}
 .center{
  display: block;
  margin: auto auto;
