@@ -4,23 +4,25 @@
   font-family: "FreeMono", monospace;
   font-size: 25px;
 }
-#b1{
-  background-image: url(https://naibuzz.com/wp-content/uploads/2018/08/linus-sebastian.jpg);
-  background-size: cover; height:480px; padding-top: 720px;
-  background-repeat: no-repeat;
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='30' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
-#top{
-  font-size: 30px;
+.custom-toggler.navbar-toggler {
+  border-color: rgb(255, 255, 255);
+  border-width: medium;
 }
-#top1{
-  padding-top: 50px;
-  padding-bottom: 50px;
-  font-size: 30px;
+.navbar-brand{
+  margin-left: 5em;
 }
-#img{
+.nav-link{
+  margin-left: 2em;
+}
+#hd{
+  height: auto;
+  width: 100%;
+}
+.fam{
   background-color: transparent;
-  margin-bottom: 0px;
-  margin-top: 0px;
 }
 .center{
  display: block;
@@ -35,7 +37,6 @@ ul a{
 ul a:hover{
   color: #9630AB;
 }
-
 #yc{
   grid-template-columns: auto;
   text-align: center;
@@ -43,17 +44,14 @@ ul a:hover{
   text-align: center;
   margin: 0px 0px 0px 525px;*/
 }
-.nl{
-  padding-left: 30px;
-}
-.nl1{
-  padding-left: 525px;
-}
 #con{
+  background-color: #CEF0F9;
   padding-top: 50px;
-   grid-template-columns: auto;
+  padding-left: 3em;
+  padding-right: 3em;
 }
 .link{
+  text-decoration: none;
   padding-top: 30px;
   text-align: center;
   grid-template-columns: auto auto auto;
@@ -63,4 +61,14 @@ ul a:hover{
 }
 .ltt{
   width: 48px;
+}
+@media only screen and (max-width: 768px) {
+  .link{
+    text-decoration: none;
+    padding-top: 30px;
+    text-align: center;
+    grid-template-columns: auto;
+    display: grid;
+    justify-content: center;
+  }
 }
